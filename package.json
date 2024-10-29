@@ -7,6 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "lint": "eslint  --fix",
+    "lint:style": "stylelint \"**/*.{css,vue}\" --fix",
+    "format": "prettier .  --write",
     "prepare": "husky"
   },
   "devDependencies": {
